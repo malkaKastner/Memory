@@ -7,9 +7,9 @@ let flipped = [];
 let lockBoard = false;
 let matches = 0;
 
-const successSound = new Audio('../sounds/success.mp3');
-const failSound = new Audio('../sounds/fail.mp3');
-const winSound = new Audio('../sounds/win.mp3');
+const successSound = new Audio('sounds/success.mp3');
+const failSound = new Audio('sounds/fail.mp3');
+const winSound = new Audio('sounds/win.mp3');
 
 cards.forEach(word => {
     const card = createCard(word);
